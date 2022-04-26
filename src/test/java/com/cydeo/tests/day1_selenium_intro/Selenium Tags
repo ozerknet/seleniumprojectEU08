@@ -1,0 +1,24 @@
+        1- Setting up the web driver manager
+        WebDriverManager.chromedriver().setup();
+
+        2- Create instance of the chrome driver
+        WebDriver driver = new ChromeDriver();
+
+        3- Test if driver is working
+        driver.get("https://www.yahoo.com");
+
+ Thread.sleep(1000);
+
+   driver.navigate()
+        4- driver.navigate().forward();
+        5- driver.navigate().back();
+        6- driver.navigate().refresh();
+
+        7- driver.navigate().to("https://www.google.com");
+
+        8- driver.close();
+
+        9- driver.getCurrentUrl()
+
+    driver.manage()
+        10-driver.manage().window().maximize();
